@@ -1,0 +1,51 @@
+h1, p, form{
+    margin: 1em;
+    text-align: center;
+}
+form{
+    line-height: 3em;
+}
+body{
+    font-size: 150%;
+}
+#input1{
+    width: 40%;
+    font-size: 100%;
+    transition: transform 400ms;
+}
+#input1:focus{
+    transform: scale(1.2);
+}
+#submit{
+    font-size: 95%;
+}
+footer{
+    position: fixed;
+    top: 95vh;
+    width: 100%;
+}
+h1{
+    box-shadow: 2px 2px 2px 2px;
+    padding: 4px;
+    word-wrap: break-word;
+    margin-left: 27%;
+    margin-right: 27%;
+}
+@media all and (max-width:615px){
+    h1{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    #input1{
+        width: 60%;
+    }
+    @media all and (max-width:425px){
+        h1{
+            margin-left: 12%;
+            margin-right: 12%;
+        }
+        #input1{
+            width: 70%;
+        }
+    }
+}

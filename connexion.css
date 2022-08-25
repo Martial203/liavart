@@ -1,0 +1,103 @@
+@media all and (min-width:377px){
+    .br1{
+    display: none;
+    }
+}
+nav, main{
+    margin: 1em;
+}
+nav img{
+    height: 0.8em;
+    width:1.2em;
+}
+main{
+    align-self: center;
+    text-align: center;
+    margin-left: 6vw;
+    margin-right: 10vw;
+    border: solid;
+    height: 80%;
+    min-width: 20em;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+form{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 3em;
+}
+#divs{
+    display:flex;
+}
+.fakeDiv{
+    flex: 1;
+}
+.input{
+    width:130%;
+    border-style: solid;
+    border-color: rgb(82,82,83);
+    transition: transform 300ms;
+}
+.input:focus{
+    border-style: solid;
+    border-width: 2px;
+    transform: scale(1.1);
+}
+table{
+    position: relative;
+    right: 2em;
+}
+body{
+    font-size: 20px;
+}
+footer{
+    position: fixed;
+    top: 95vh;
+    width: 100%;
+}
+@media all and (max-width:450px){
+    main{
+        min-width: 12em;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+    table{
+        position: relative;
+        right: 1.3em;
+    }
+    @media all and (max-width:391px){
+        tr{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        table{
+            position: relative;
+            right: 0em;
+        }
+        td{
+            min-width: 10em;
+        }
+        .tdC2{
+            width: 100%;
+        }
+        .tdC1{
+            width: 70%;
+        }
+        @media all and (max-width:305px){
+            .input{
+                width: 120%;
+                position: relative;
+                left: 0.5em;
+            }
+        }
+    }
+}
+#p2{
+    line-height: 2em;
+    font-size: 15px;
+}

@@ -1,0 +1,163 @@
+@media all and (min-width:308px){
+    #br2{
+        display: none;
+    }
+}
+nav, main{
+    margin: 1em;
+}
+nav img{
+    height: 0.8em;
+    width:1.2em;
+}
+#p1{
+ margin-left: 2.5em;    
+}
+h1{
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 23%;
+    min-width: 5em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@media all and (max-width:602px){
+    h1{
+        margin-left: 35%;
+    }
+    @media all and (max-width:435px){
+        h1{
+            margin-left: 30%;
+        }
+        @media all and (max-width:435px){
+            h1{
+                margin-left: 25%;
+            }
+            @media all and (max-width:435px){
+                h1{
+                    margin-left: 20%;
+                }
+                @media all and (max-width:339px){
+                    h1{
+                        margin-left: 15%;
+                    }
+                    table .input, #pagesEntreprise{
+                        width: 85vw;
+                    }
+                }
+            }
+        }
+    }
+}
+form{
+    line-height: 2em;
+}
+#formulaire{
+    display: flex;
+    flex-wrap: wrap;
+}
+#formulaire table{
+    flex:4;
+    min-width: 24em;
+}
+#formulaire p{
+    flex:3;
+    min-width: 18em;
+}
+#fakeDiv{
+    flex:1.5;
+    min-width: 5.5em;
+}
+@media all and (max-width:1120px){
+    #fakeDiv{
+        display: none;
+    }
+}
+
+.input{
+    width:80%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(82,82,83);
+    background-color: rgb(249,129,129,0);
+    transition: transform 300ms;
+}
+.input:focus{
+    border-style: solid;
+    border-width: 2px;
+    transform: scale(1.1);
+}
+/*.input:not(:focus):invalid{
+    animation-name: invalid;
+    animation-duration: 200ms;
+    animation-iteration-count: 3;
+}*/
+
+#description{
+    width: 250%;
+    height: 50%;
+    border-color: rgb(82,82,83);
+    transition: transform 300ms;
+}
+#description:focus{
+    transform: scale(1.05);
+}
+@media all and (max-width:366px){
+    #description{
+        width: 85vw;
+    }
+}
+#pagesEntreprise{
+    width: 90%;
+    height: 20%;
+    transition: transform 300ms;
+}
+#pagesEntreprise:focus{
+    transform: scale(1.05);
+}
+.col1{
+    width:35%;
+}
+#soumissionEtReinitialisation{
+    text-align: center;
+    word-spacing: 2em;
+}
+#soumissionEtReinitialisation input{
+    font-size: 1em;
+}
+#profil{
+    text-align: center;
+}
+textarea{
+    border-color: rgb(82,82,83);
+}
+#siteInternet{
+    width: 50%;
+}
+#etape{
+    display: inline-block;
+    font-size: 200%;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: rgb(10,190,10,0.7);
+    border: solid;
+    border-radius: 2em;
+    transition: transform 400ms;
+}
+#etape:hover{
+    transform: scale(1.2);
+}
+@media all and (max-width:367px){
+    tr{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    td{
+        display: inline-block;
+        width: 100%;
+    }
+}

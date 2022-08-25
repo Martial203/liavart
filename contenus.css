@@ -1,0 +1,476 @@
+nav, aside, main{
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav h2, nav ul{
+    display: inline;
+}
+nav{
+    border-bottom: solid;
+    border-width: 2px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 2em;
+    font-size: 0.8em;
+}
+#body{
+    display:flex;
+}
+section{
+    overflow-y: scroll;
+}
+#left{
+    border: solid;
+    border-width: 1px;
+    flex: 0.6;
+    line-height: 3.4em;
+    margin-top: auto;
+    margin-left: auto;
+    padding-left: 1em;
+    margin-right: auto;
+    overflow: scroll;
+}
+main{
+    flex: 2;
+    border: solid;
+    border-top: none;
+    border-width: 1px;
+    margin-left: auto;
+    margin-right: 0em;
+    margin-top: 0em;
+}
+#right{
+    flex: 0.52;
+    border-left: none;
+    border-width: 1px;
+    margin-left: auto;
+    margin-top: 0em;
+    margin-right: auto;
+    align-self: center;
+}
+figure figcaption{
+    display: inline;
+}
+.input{
+    width: 40%;
+}
+footer{
+    font-size: 80%;
+}
+#searchBar{
+    width: 13em;
+}
+#sort{
+    width: 12em;
+}
+#rechercher{
+    width: 10em;
+}
+nav ul{
+    display: flex;
+    width: 110%;
+    margin-left: 2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-bottom: 0em;
+    position: relative;
+    top: 2px;
+    justify-content: flex-end;
+    right: 1em;
+}
+nav ul li{
+    display: inline-block;
+    justify-content: flex-end;
+}
+nav{
+    display: flex;
+}
+/*
+@media all and (max-width:1057px){
+    nav ul{
+        width: 150%;
+    }
+    @media all and (max-width:935px){
+        nav ul, nav ul li{
+            width: 180%;
+            border: solid;
+        }
+        @media all and (max-width:881px){
+            nav ul li{
+                display: block;
+            }
+            nav ul{
+                display: flex;
+            }
+        }
+    }
+}
+*/
+nav ul form{
+    display: block;
+}
+h2{
+    font-size: 1.5em;
+    width: 100%;
+}
+header{
+    border-bottom: solid 1px;
+}
+footer{
+    border-top: none 1px;
+}
+#right, #left, main{
+    border-top: none;
+    border-bottom: none;
+}
+#right a figcaption{
+    position: relative;
+    left: 1ex;
+    bottom: 1ex;
+}
+#right figure{
+    margin-left: 15%;
+    margin-right: 10%;
+}
+figure{
+    border: solid;
+    width: 70%;
+    position: relative;
+    right: 2ex;
+    padding: 1ex;
+    padding-right: 1.5ex;
+    border-radius: 2em;
+    text-align: center;
+    transition: background-color 300ms;
+}
+a{
+    text-decoration: none;
+}
+figure:hover{
+    background-color: aqua;
+}
+.proposition{
+    display: inline-block;
+}
+#right a figure figcaption{
+    text-align: center;
+}
+#right a {
+    font-size: 82%;
+}
+#deconnecter{
+    border: solid;
+    text-align: center;
+    padding: 3em;
+    margin: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 200%;
+    box-shadow: 1px 2px 15px 5px; 
+}
+#deconnecter #p2{
+    margin-top: 3em;
+    word-spacing: 3em;
+}
+@media all and (max-width:1115px){
+    #deconnecter{
+        margin-left: 2em;
+        margin-right: 2em;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    @media all and (max-width:913px){
+        #deconnecter{
+            margin-left: 2em;
+            margin-right: 2em;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+        @media all and (max-width:913px){
+            #deconnecter{
+                margin-left: 1em;
+                margin-right: 1em;
+                padding-left: 1em;
+                padding-right: 1em;
+            }
+            @media all and (max-width:913px){
+                #deconnecter{
+                    margin-left: 0.2em;
+                    margin-right: 0.2em;
+                    padding-left: 0.5em;
+                    padding-right: 0.5em;
+                }
+            }
+        }
+    }
+}
+section{
+     height: 86%;
+    padding: 1em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    overflow-y: scroll;
+}
+#body{
+    height: 80%;
+}
+#left, main{
+    height: 33em;
+}
+#parametres_p{
+    text-align: center;
+}
+table, tr, td{
+    
+}
+table .input{
+    width: 97%;
+}
+table{
+    line-height: 2em;
+    width: 70%;
+}
+#description{
+    width: 98%;
+}
+.col1{
+    width: 35%;
+}
+#profil{
+    line-height: 2em;
+}
+#terminer{
+    text-align: center;
+}
+#terminer input{
+    font-size: 120%;
+}
+#plus{
+    width: 17%;
+}
+#pagesEntreprise{
+    width: 70%;
+    height: 5em;
+}
+
+nav h2{
+    min-width: 30%;
+}
+.image{
+}
+.spanFavorites{
+    text-align: right;
+    display: none;
+}
+#depliantLeft{
+    position: absolute;
+    top: 2.55em;
+    left: 1em;
+    display: none;
+}
+#depliantRight{
+    position: absolute;
+    top: 2.55em;
+    right: 1em;
+    display: none;
+}
+@media all and (max-width:931px){
+    .spanFavorites{
+        display: block;
+    }
+    #favoris{
+        display: none;
+    }
+    @media all and (max-width:744px){
+        #left{
+            font-size: 90%;
+            margin: inherit;
+            padding-bottom: 4em;
+        }
+        @media all and (max-width:714px){
+            #left{
+                min-width: 32%;
+                background-color: azure;
+                display: none;
+            }
+            .displayRight{
+                text-align: left;
+            }
+            #formChoixLangue{
+                display: none;
+            }
+            #right{
+                position: absolute;
+                top: 0%;
+                right: 0%;
+                display: none;
+                height: 100%;
+            }
+            #formChoixLangue1{
+                position: absolute;
+                left: 18%;
+                top: 0em;
+                z-index: 1;
+            }
+            #formChoixLangue1 div{
+                display: flex;
+                flex-direction: row;
+            }
+            #right figure{
+                background-color: azure;
+                transition: background-color 300ms;
+                position: relative;
+                top: 45%;
+            }
+            #right figure:hover{
+                background-color: aqua;
+            }
+            #depliantLeft, #depliantRight{
+                display: block;
+            }
+            @media all and (max-width:470px){
+                nav ul form{
+                    display: block;
+                    width: 100%;
+                }
+                nav ul{
+                    display: flex;
+                    flex-direction: column;
+                    align-content: center;
+                    align-items: center;
+                    justify-content: flex-start;
+                    position: relative;
+                    right: -0.8em;
+                }
+                h2{
+                    width: 180%;
+                }
+                @media all and (max-width:368px){
+                    .labelAnnonce, .pays{
+                        display: block;
+                    }
+
+                    .brPaysPlusInfos{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+.deplierLeft, .deplierRight{
+    display: block;
+    transition: display 300ms;
+}
+.varBr{
+    display: none;
+}
+.labelAnnonce, .labelAnnoncePays, .labelAnnonceVille, .datePublicationOffre, .auteurPublicationOffre{
+    font-weight: bold;
+}
+.image img{
+    max-height: 5.5em;
+    min-width: 5em;
+}
+#modifierprofil_intro{
+    text-align: center;
+    width: 100%;
+}
+form{
+    text-align: center;
+}
+form img{
+    width: 90%;
+}
+@media all and (max-width:375px){
+    form img{
+        width: 98%;
+    }
+}
+header{
+    text-align: center;
+}
+.pagesResultats{
+    text-align: center;
+}
+.listeDesOffres{
+    text-align: center;
+}
+#formChoixLangue1{
+    position: absolute;
+    top: 5em;
+    right: 30px;
+}
+#formChoixLangue{
+    display: none;
+}
+#passwordForm table tr{
+    text-align: left;
+    border: solid;
+}
+#tdSubmit{
+    text-align: center;
+}
+.colM1{
+    min-width: 12em;
+}
+@media all and (max-width:371px){
+    #passwordForm td{
+        display: block;
+        text-align: center;
+    }
+    #passwordForm table{
+        width: 100%;
+    }
+    .colM2 input{
+        width: 80%;
+    }
+    @media all and (max-width:339px){
+        #passwordTitre{
+            text-align: center;
+        }
+    }
+}
+#passwordTitre{
+    width: 100%;
+}
+
+
+.aucunResultat{
+    text-align: center;
+    display: block;
+}
+.sectionAnnonces{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sectionAnnonces .divAnnonce{
+    display: inline-block;
+}
+.divAnnonce{
+    border: solid;
+    border-radius: 1.5em;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    transition: transform 500ms;
+}
+.divAnnonce:hover{
+    transform: scale(1.1);
+}
+.aAnnonce{
+    color: black;
+}

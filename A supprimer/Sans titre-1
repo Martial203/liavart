@@ -1,0 +1,12 @@
+<script type="text/javascript">
+    const favoris = document.getElementsByClassName('services_favoris');
+    favoris.forEach(function(item){
+        var id = favoris.getAttribute("id");
+       item.addEventListener('click',function(){
+          event.stopPropagation();
+           <?php
+                
+           ?>
+       }); 
+    });
+</script>

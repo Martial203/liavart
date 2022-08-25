@@ -1,0 +1,35 @@
+h1, h2{
+    text-align: center;
+}
+section{
+    display: flex;
+}
+aside{
+    border: solid;
+    flex: 1;
+}
+main{
+    border: solid;
+    flex: 5;
+}
+
+/*
+Statistiques générales :
+Nombre total d'annonces
+Nombre d'offres d'emploi/demande de services
+Nombre de demandes d'emploi/propositions de services
+Nombre de membres inscrits
+Nombre de masculins
+nombre de feminins
+A propos des annonces :
+Faire une recherche des differentes annonces publiées sur le site
+Supprimer une annonce de la base de données
+Liste des annonces signalées avec les motifs
+A propos des utilisateurs :
+Faire une recherche des differents membres inscrits sur le site
+Supprimer un membre de la base de données
+Empecher un utilisateur de publier une annonce
+Acceder au site même (zone publique)
+Envoyer un mail à un membre
+Désignaler une annonce
+*/
